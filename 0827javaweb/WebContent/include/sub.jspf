@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%
+	//변수를 생성해서 값을 대입
+
+	String msg ="sub.jspf에서 작성된 문장";
+%>
+
+<p>num : <%= num%></p>
