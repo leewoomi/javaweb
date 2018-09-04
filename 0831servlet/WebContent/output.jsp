@@ -8,5 +8,8 @@
 </head>
 <body>
 ${msg}
+
+<br />
+<a href="input.jsp">메인으로 </a>
 </body>
 </html>

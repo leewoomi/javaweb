@@ -40,12 +40,12 @@ public class Register extends HttpServlet {
 	System.out.println("hobby" + hobby);
 		}
 		//결과 페이지에 전송할 데이터를 저장
-//		request.setAttribute("msg", "회원가입에 성공하셨습니다.");
+	//request.setAttribute("msg", "회원가입에 성공하셨습니다.");
 		
 		
 //		//결과 페이지로 포워딩- 새로고침하면 작업을 다시 수행 
-//		javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("output.jsp");
-//		dispatcher.forward(request, response);
+	//javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("output.jsp");
+		//dispatcher.forward(request, response);
 		request.getSession().setAttribute("msg", "회원가입에 성공하셨습니다.");
 		response.sendRedirect("output.jsp");
 	}
